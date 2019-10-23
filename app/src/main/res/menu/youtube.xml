@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/idSettings"
+        android:title="Settings" />
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        app:showAsAction="always"/>
+
+    <item android:title="Xem trên tv"
+        android:id="@+id/idXemTrenTV"
+        />
+
+    <item android:title="Contact" >
+        <menu >
+            <item android:title="PhoneNumber"
+                android:id="@+id/idPhongNumber"
+                />
+            <item android:title="Send email"
+                android:id="@+id/idSend_Email"
+                />
+        </menu>
+    </item>
+</menu>
